@@ -2,7 +2,9 @@ def roll_call_dwarves(array)
   array.each{ |i| puts i }
 end
 
+dwarf_ary = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
+p roll_call_dwarves(dwarf_ary)
 
 def summon_captain_planet# code an argument here
   # Your code here
