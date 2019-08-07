@@ -24,4 +24,4 @@ def find_the_cheese(array)
   array.include?(cheese_types)
 end
 
-find_the_cheese(["mayo", "cheddar"])
+p find_the_cheese(["mayo", "cheddar"])
