@@ -8,6 +8,7 @@ planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 puts planeteer_calls[0].capitalize
 
 def summon_captain_planet(array)
+  array.map{ |i| "#{i.capitalize}!" }
 end
 
 def long_planeteer_calls# code an argument here
