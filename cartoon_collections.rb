@@ -5,7 +5,7 @@ def roll_call_dwarves(array)
 end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-
+p planeteer_calls.join(" ")
 def summon_captain_planet(array)
   array.map{ |i| "#{i."
 end
