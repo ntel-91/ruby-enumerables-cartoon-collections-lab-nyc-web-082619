@@ -24,7 +24,7 @@ def find_the_cheese(array)
   array.detect{ |i| cheese_types.include?(i) }
 end
 
-songs = [1,3,4]
-p songs.include?([2,3])
+
+p find_the_cheese(["mayo", "cheddar"])
 
 
