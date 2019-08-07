@@ -24,4 +24,7 @@ def find_the_cheese(array)
   array.include?(cheese_types)
 end
 
-p find_the_cheese()
+songs = [1,3,4]
+p songs.include?(2)
+
+
