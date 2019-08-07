@@ -25,6 +25,6 @@ def find_the_cheese(array)
 end
 
 songs = [1,3,4]
-p songs.include?(2)
+p songs.include?(3)
 
 
